@@ -1,0 +1,380 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+    url(https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/4600/2018/10/24/Campus%20view%20of%20Delhi%20Institute%20of%20Engineering%20and%20Technology%20Meerut_Campus-View.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.nav{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo{
+    background-image: url(DIET-Meerut-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    width: 70px;
+}
+.nav-option a{
+    padding: 20px;
+    /* margin: 20px; */
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+.nav-option a:hover{
+    font-size: 20px;
+    color: #c84750;
+    /* text-decoration: underline; */
+}
+.nav-option i{
+    display: none;
+}
+
+.nav-enroll button{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #d35961;
+    transition: 0.2s ease;
+}
+.nav-enroll button:hover{
+    padding: 12px;
+}
+.hero{
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #c84750;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+    /* box-shadow: white; */
+}
+.hero h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.hero p{
+    padding-top: 20px;
+    color: whitesmoke;
+}
+.hero button{
+    margin-top: 20px;
+    color: white;
+    /* margin-left: 18vw; */
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: transparent;
+    transition: 0.2s ease;
+}
+.hero button:hover{
+    padding: 12px;
+    background-color: #c84750;
+}
+
+#Course{
+    padding: 40px 25px;
+    /* padding-top: 40px; */
+    width: 100%;
+    min-height: 30vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 80%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    column-gap: 20px;
+    row-gap: 40px; 
+}
+.heading{
+    grid-column: span 3;
+    text-align: center;
+    /* background-color: beige; */
+    height: 70px;
+}
+.heading h1{
+    color: #c84750;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.gd{
+    padding-top: 2vw;
+    padding: 5px;
+    text-align: center;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .2);
+}
+.gd:hover{
+    background-color: #d35961c3;
+}
+.gd h1{
+    color: #d35961;
+    padding-bottom: 10px;
+}
+
+#About{
+    margin-top: 80px;
+    width: 100%;
+    min-height: 50vh;
+}
+.about-head{
+    color: #c84750;
+    font-size: 30px;
+    text-align: center;
+}
+.alumni{
+    margin-top: 50px;
+    display: flex;
+    padding: 0px 4vw;
+    gap: 40px;
+}
+.alumni-1{
+    display: flex;
+    gap: 20px;
+    min-height: 22vh;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .2);
+}
+.alumni-1:hover{
+    background-color: #d35961c3;
+}
+.alumni-text span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.alumni-text h3{
+    margin-top: 20px;
+    text-align: end;
+}
+.alumni-img img{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#facility{
+    padding: 0px 4vw;
+    min-height: 40vh;
+}
+.facility-head {
+    margin-bottom: 20px;
+    color: #c84750;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.facility-body{
+    display: flex;
+    gap: 50px;
+}
+.photo1{
+    background-image: url(https://plus.unsplash.com/premium_photo-1663047308908-f6e112c17daf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+    height: 45vh;
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+}
+.anim{
+    text-align: center;
+    color: transparent;
+    transition: 0.3s ease-in;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .2);
+}
+.anim:hover{
+    color: #c84750;
+}
+.photo2{
+    background-image: url(https://images.unsplash.com/photo-1662065931048-4ed0840fac3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
+    height: 45vh;
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+}
+.photo3{
+    background-image: url(https://images.unsplash.com/photo-1555854877-bab0e564b8d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80);
+    height: 45vh;
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#Contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    min-height: 40vh;
+    gap: 40px;
+    margin: 40px 0px;
+}
+.contact-head{
+    text-align: center;
+}
+.space{
+    background-color: beige;
+    border-radius: 10px;
+    padding: 30px 0px;
+    margin: 20px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .2);
+}
+.space:hover{
+    background-color: #d35961c3;
+}
+.contact{
+    padding: 0px 30px;
+    width: 50%;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .2);
+}
+.location{
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .2);
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+#foot{
+    min-height: 60vh;
+    margin: 40px 10px;
+    padding: 10px 30px;
+    background-color: #0e0e0e;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 8px 16px rgba(0, 0, 0, .2);
+}
+.footer-up{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.footer-up i{
+    color: white;
+}
+#fb i:hover{
+    border-radius: 5px;
+    color: rgb(24, 119, 242);
+}
+#insta :hover{
+    border-radius: 5px;
+    background: linear-gradient(#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+#yt i:hover{
+    /* color: #c4302b; */
+    color: red;
+}
+.footer-mid{
+    margin: 40px 0px;
+    color: #fff;
+    display: flex;
+}
+.li{
+    width: 25%;
+    /* text-align: center; */
+}
+.li li{
+    margin: 10px;
+    list-style-type:none;
+    cursor: pointer;
+}
+.footer-mid hr{
+    display: none;
+}
+.footer-down{
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+}
+@media (max-width : 750px) {
+    .nav-option a{
+        display: none;
+    }
+    .nav-option i{
+        display: block;
+        cursor: pointer;
+        color: white;
+        transition: 0.2s ease;
+        font-size: 18px;
+    }
+    .nav-option i:hover{
+        font-size: 20px;
+        color: #c84750;
+    }
+
+    .hero p{
+        font-size: 12px;
+    }
+    #Course{
+        display: initial;
+    }
+    .gd{
+        margin: 20px 10vw;
+        min-height: 20vh;
+        width: 80%;
+    }
+
+    .alumni{
+        flex-direction: column;
+    }
+    .facility-body{
+        flex-direction: column;
+    }
+    .anim{
+        width: 90%;
+    }
+    .anim{
+        margin: 0px 5vw;
+    }
+    #Contact{
+        flex-direction: column;
+    }
+    .contact{
+        width: 90%;
+    }
+    .location{
+        background-color: #333;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .footer-mid{
+        flex-direction: column;
+    }
+    .li{
+        width: 90%;
+        text-align: center;
+    }
+    .footer-mid hr{
+        display: block;
+    }
+}
